@@ -1,0 +1,53 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/wenws/10_NLOS_Correction_/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2786440123/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2786440123.dir/build.make CMakeFiles/cmTryCompileExec2786440123.dir/build
+make[1]: Entering directory `/home/wenws/10_NLOS_Correction_/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenws/10_NLOS_Correction_/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2786440123.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2786440123.dir/CheckSymbolExists.c.o   -c /home/wenws/10_NLOS_Correction_/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2786440123
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2786440123.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2786440123.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2786440123 -rdynamic 
+CMakeFiles/cmTryCompileExec2786440123.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/wenws/10_NLOS_Correction_/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec2786440123] Error 1
+make: *** [cmTryCompileExec2786440123/fast] Error 2
+
+File /home/wenws/10_NLOS_Correction_/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/wenws/10_NLOS_Correction_/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec854431228/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec854431228.dir/build.make CMakeFiles/cmTryCompileExec854431228.dir/build
+make[1]: Entering directory `/home/wenws/10_NLOS_Correction_/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/wenws/10_NLOS_Correction_/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec854431228.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec854431228.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec854431228
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec854431228.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec854431228.dir/CheckFunctionExists.c.o  -o cmTryCompileExec854431228 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/wenws/10_NLOS_Correction_/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec854431228] Error 1
+make: *** [cmTryCompileExec854431228/fast] Error 2
+
+

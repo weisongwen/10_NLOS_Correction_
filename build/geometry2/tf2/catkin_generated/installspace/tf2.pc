@@ -1,0 +1,8 @@
+prefix=/home/wenws/10_NLOS_Correction_/install
+
+Name: tf2
+Description: Description of tf2
+Version: 0.5.16
+Cflags: -I/home/wenws/10_NLOS_Correction_/install/include -I/usr/include
+Libs: -L/home/wenws/10_NLOS_Correction_/install/lib -ltf2 -l:/usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+Requires: geometry_msgs tf2_msgs rostime

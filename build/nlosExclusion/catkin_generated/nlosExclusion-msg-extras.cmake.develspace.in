@@ -1,0 +1,2 @@
+set(nlosExclusion_MESSAGE_FILES "/home/wenws/10_NLOS_Correction_/src/nlosExclusion/msg/GNSS_Raw.msg;/home/wenws/10_NLOS_Correction_/src/nlosExclusion/msg/GNSS_Raw_Array.msg;/home/wenws/10_NLOS_Correction_/src/nlosExclusion/msg/DOP.msg;/home/wenws/10_NLOS_Correction_/src/nlosExclusion/msg/Satellite_Info.msg;/home/wenws/10_NLOS_Correction_/src/nlosExclusion/msg/exclusionSatNum.msg;/home/wenws/10_NLOS_Correction_/src/nlosExclusion/msg/Error.msg")
+set(nlosExclusion_SERVICE_FILES "")

@@ -1,0 +1,8 @@
+prefix=/home/wenws/10_NLOS_Correction_/install
+
+Name: tf2_ros
+Description: Description of tf2_ros
+Version: 0.5.16
+Cflags: -I/home/wenws/10_NLOS_Correction_/install/include
+Libs: -L/home/wenws/10_NLOS_Correction_/install/lib -ltf2_ros
+Requires: actionlib actionlib_msgs geometry_msgs message_filters roscpp rosgraph tf2 tf2_msgs tf2_py

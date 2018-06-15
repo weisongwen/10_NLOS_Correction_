@@ -1,0 +1,8 @@
+prefix=/home/wenws/10_NLOS_Correction_/install
+
+Name: tf2_py
+Description: Description of tf2_py
+Version: 0.5.16
+Cflags: 
+Libs: -L/home/wenws/10_NLOS_Correction_/install/lib 
+Requires: rospy tf2
