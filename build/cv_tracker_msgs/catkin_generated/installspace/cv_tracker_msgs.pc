@@ -1,8 +1,0 @@
-prefix=/home/wenws/10_NLOS_Correction_/install
-
-Name: cv_tracker_msgs
-Description: Description of cv_tracker_msgs
-Version: 0.0.0
-Cflags: -I/home/wenws/10_NLOS_Correction_/install/include
-Libs: -L/home/wenws/10_NLOS_Correction_/install/lib 
-Requires: std_msgs geometry_msgs

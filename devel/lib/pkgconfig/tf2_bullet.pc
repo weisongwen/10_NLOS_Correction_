@@ -1,8 +1,0 @@
-prefix=/home/wenws/10_NLOS_Correction_/devel
-
-Name: tf2_bullet
-Description: Description of tf2_bullet
-Version: 0.5.16
-Cflags: -I/home/wenws/10_NLOS_Correction_/src/geometry2/tf2_bullet/include -I/usr/include/bullet
-Libs: -L/home/wenws/10_NLOS_Correction_/devel/lib 
-Requires: 

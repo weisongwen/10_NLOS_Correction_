@@ -1,8 +1,0 @@
-prefix=/home/wenws/10_NLOS_Correction_/install
-
-Name: test_tf2
-Description: Description of test_tf2
-Version: 0.5.16
-Cflags: 
-Libs: -L/home/wenws/10_NLOS_Correction_/install/lib 
-Requires: 

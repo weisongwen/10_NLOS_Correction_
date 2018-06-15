@@ -1,8 +1,0 @@
-prefix=/home/wenws/10_NLOS_Correction_/install
-
-Name: tf2_tools
-Description: Description of tf2_tools
-Version: 0.5.16
-Cflags: 
-Libs: -L/home/wenws/10_NLOS_Correction_/install/lib 
-Requires: tf2 tf2_msgs tf2_ros
